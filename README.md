@@ -1,0 +1,2 @@
+# Mantenimiento
+Este proyecto fue realizado mientras estudiaba en la materia de programación web - 2019/Actualidad. En ocasiones lo he compartido para compañeros lo utilicen para basarse en sus proyectos desde el 2019 hasta la fecha. Este proyecto me lo pasaron compañeros que ya habian acreditado la materia, yo mismo me he encargado de darle soporte desde el 2019 al proyecto. Nunca he cambiado el css y html así que este proyecto incluye codigo spaguetti por los anteriores desarrolladores. Actualmente incluye fotografias del ultimo proyecto que se utilizo el 10/11/2019.
