@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+  <head>
+    <title>Formulario</title>
+  <link rel="shortcut icon" href="img/logo1.png">
+    <link rel="stylesheet" type="text/css" href="esstilo.css">
+  </head>
+
+  <script type = "text/javascript" src = "FuctionInclude.js"></script>
+  <center><img src="img/imagenn.png" class="logo" ></center>
+  
+  <center>  
+    <body>
+  
+    <div class="form">
+        
+        <nav>
+          <div w3-include-html="MENU.html"></div> 
+        </nav>
+        
+        <br>
+    <form method="post" action="nuevaPersona2.php">
+        <h1>SOLICITUD</h1>
+        <hr>
+        <br>
+      <label for="nombre">Nombre completo:</label>
+      <br><br>
+      <input name="nombre" required type="text" id="nombre" placeholder="Escribe tu nombre...">
+      <br><br>
+      <label for="numerodecontrol">Numero de control:</label>
+      <br><br>
+      <input name="numerodecontrol" required type="text" id="numerodecontrol" placeholder="Matricula">
+      <br><br>
+      
+      <label for="carrera">Carrera:</label> 
+      <br><br>
+      <select name="carrera" required type="carrera" id="carrera" placeholder="">
+
+        <option value="">---Selecciona carrera---</option>
+        <option value="ISC">Ingenieria en Sistemas Computacionales</option>
+        <option value="II">Ingenieria Industrial</option>
+        <option value="IIA">Ingenieria en Industrias Alimentarias</option>
+        <option value="IGE">Ingenieria Gestión Empresarial</option>
+        <option value="IA">Ingenieria Ambiental</option>
+      </select>
+      <br><br>
+      <label for="semestre">Semestre:</label> 
+        <select name ="semestre" id="semestre" placeholder="" required type="semestre">
+          <option value="">Semestre</option>
+          <option value="1">Primero</option>
+          <option value="2">Segundo</option>
+          <option value="3">Tercero</option>
+          <option value="4">Cuarto</option>
+          <option value="5">Quinto</option>
+          <option value="6">Sexto</option>
+          <option value="7">Septimo</option>
+          <option value="8">Octavo</option>
+          <option value="9">Noveno</option>
+        </select>
+
+      <label for="grupo">Grupo:</label>
+        <select name="grupo" required name="grupo" id="grupo">
+          <option value="">Grupo</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>          
+        </select>
+
+      <br><br>
+
+      <label for="correo">Correo electronico:</label>
+      <br><br>
+      <input type="text" name="correo" required type="text" id="correo" placeholder="Escribe aquí tu correo electronico...">
+
+        <br>
+        <br>
+        <br>
+
+      <input type="submit" value="Enviar" onclick='alert("Se ha enviado tu formulario.")'>  
+      <br>
+
+    </form>
+    </div>
+
+  </body>
+  
+  
+  </center>
+  <script>
+includeHTML();
+</script>
+</html>

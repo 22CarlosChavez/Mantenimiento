@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <title>Registro</title> 
+          <meta charset="utf-8"/>
+          <link rel="shortcut icon" href="img/logo1.png">
+ <!------ Include the above in your HEAD tag ---------->         
+          <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+          <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+          <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+         <style type="text/css">
+            .centerDiv { width: 30%; height:550px; margin: 0 auto; border:1px solid white;background-color:white;font-family: Arial;padding: 10px; box-shadow: 1px 1px 5px #000;text-align:center;overflow:auto;} 
+             .center{text-align: center;}
+        </style> 
+    </head>
+<body style="background-color:#55adff;">
+            <div style="width: 30%; margin: 0 auto; border:1px solid lightblue; background-color:#1a68b0;
+                font-family: Arial;padding: 10px; box-shadow: 1px 1px 5px #000;
+                color:white;overflow:auto;">
+                <h1 class="center">Log in Cliente</h1>
+            </div>  
+            <div div class="centerDiv" >
+                <form method="POST" action="logincliente.php">
+                    <img src="img/logo.png" style="border-radius:50%">    
+                <br><br>
+                       <input type="text" name="email" placeholder="Correo Electronico" required size="40" style="height:30px;">
+                <br><br>
+                       <input name="password" required type="password" id="password" placeholder="&#128272; Contraseña" maxlength="25" size="40" style="height: 30px;" >
+                <br><br>
+                        <input type="submit" value="Entrar" style="font-size: 15px;border-radius: 5px;
+                    padding: 10px 30px; width:70%;background-color:#1a68b0;color: white;">
+                        <br>
+                        <br><br>
+             <div class="alert alert-warning" style="height: 40px;">Nota: ¡Ingresa tus datos correctamente!</div>
+                </form>
+            </div>      
+</body>
+</html>

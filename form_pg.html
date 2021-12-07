@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+<head>
+<title>Formulario Solicitud Alumnos</title>
+<link rel="shortcut icon" href="img/logo1.png">
+    <link rel="stylesheet" type="text/css" href="esstilo.css">
+<style type="text/css">
+.form{
+    height:1000px;
+    width: 1000px;
+    text-align: center;
+	background-color:#e5dfcd;
+	border-radius: 20px;
+	margin: auto;
+}
+h1 { text-align: center; }
+td { padding: 0.2em 2em ; }
+</style>
+</head>
+  <script type = "text/javascript" src = "FuctionInclude.js"></script>
+  <center><img src="img/imagen.png" class="logo" ></center>
+<body>
+  <div class="form" style="height: 700px;">
+    <nav>
+      <div w3-include-html="MENU.html"></div>
+    </nav>
+<body>
+	<h1>Registro de usuarios</h1>
+<!-- <img src="https://image.flaticon.com/icons/png/512/17/17797.png" height="190" width="190"> -->
+<center>
+	<br><br>
+
+<fieldset style="width:400px">
+  <legend>Datos Personales</legend>
+  <br><br>
+  <form action="enviarFormpg.php" method="POST"/><!--  AQUI ES DONDE SE VA A ENVIAR A LA BASE DE DATOS -->
+  	<input type="text" name="nombrec" placeholder="Nombre Completo" style="width:220px; height: 22px;" required="">
+  	<br><br>
+	<input type="text" id="phone" name="phone" placeholder="Example: 123-456-78-90"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="Ingrese 3 digitos primero y después el simbolo (-) y después los siguientes 3 digitos" required  style="width:220px; height: 22px;">
+  	<br><br>
+  	<input type="email" name="email" placeholder="Correo Electronico" style="width: 220px; height: 22px;">
+  	<br><br>
+    <input type="password" name="password" placeholder="Contraseña" style="width: 220px; height: 22px;">
+    <br><br>
+  	<input type="text" name="domicilio" placeholder="Domicilio" style="width:220px; height: 22px;" required="">
+  	<br><br>
+  	<div style="width: 300px; text-align:center;">
+  		<input type="text" align="left" name="dia" placeholder="Día" style="width:65px; height: 22px;" required>
+  		<input type="text" align="center" name="mes" placeholder="Mes" style="width:65px; height: 22px;" required>
+  		<input type="text" align="right" name="anio" placeholder="Año" style="width:65px; height: 22px;" required>
+  	</div>
+  	<br>
+  	<input type="text" name="rfc" placeholder="R.F.C. (opcional ó ingrese PG)" style="width: 220px; height: 22px;">
+	<br><br>
+  	<input type="text" name="ciudad" placeholder="Ciudad" style="width:220px; height: 22px;" required>
+	<br><br>
+  	<input type="text" name="estado" placeholder="Estado" style="width:220px; height: 22px;" required>
+  	<br><br>
+  	<input type="submit" value="Enviar Datos" style="width:225px; height: 25px;">
+  	<br><br>
+</form>
+</fieldset>
+</center>
+</body>
+<script>
+includeHTML();
+</script>
+</html>

@@ -1,0 +1,12 @@
+img.logo{
+
+		float: center;
+		height: 160px;
+		width: 1010px;
+}
+div[id="contenedor"] {
+  background-color:#f2efef;
+}
+body{
+  background-color:#f5f1f1;
+}

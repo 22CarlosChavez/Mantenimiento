@@ -1,0 +1,38 @@
+body{
+	background-color:white;
+}
+
+.centerDiv { 
+	width: 30%; height:450px; margin: 0 auto;
+	border:1px solid white;background-color:white;
+	font-family: Arial;padding: 10px;
+    box-shadow: 1px 1px 5px #000;
+    text-align:center; overflow:auto;
+}
+
+.center{
+	text-align: center;
+}
+
+h1{
+	color: white;
+}
+
+div [style=""], h1[class="left"]{
+	width: 90%; 
+	margin: auto;
+	border:2px solid white; 
+	background-color:#4682B4; 
+	font-family: Arial;
+	font-size: 20px;
+    box-shadow: 1px 1px 1px #000;
+    color:white;
+    overflow:auto;
+    padding: 30px;
+}
+
+
+img [src=""]{
+	border-radius: 400%;
+	
+}

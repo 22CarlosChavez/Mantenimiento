@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+header{
+    width: 80%;
+    background: #1a68b0;
+    box-shadow: 1px 1px 5px #000;
+    height: 50px;
+}
+#menu{
+    width: 1366px;
+    padding-top: 10px;
+    margin: auto;
+}
+#menu ul a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font: bold 16px Verdana;
+    padding: 12px 20px 12px 20px;
+    background: transparent;
+    border-bottom: 9px solid transparent;
+    transition: border-bottom .7s;
+    -webkit-transition:border-bottom .7s;
+    -moz-transition:border-bottom .7s;
+    transition: border-bottom .7s;
+}
+#menu ul a:hover{
+    border-bottom: 9px solid red;
+}

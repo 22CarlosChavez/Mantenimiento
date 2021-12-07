@@ -1,0 +1,22 @@
+
+form{
+	align-content: center;
+}
+img.logo{
+
+		float: center;
+		height: 160px;
+		width: 1010px;
+}
+
+input[type=reset]{
+	position:relative;
+	width:100px;
+	height:40px;
+	border-radius:20px;
+	margin-left: 10px;
+	border:0px;
+	background-color:#f53d2a ; 
+	font: 14px normal normal uppercase helvetica, arial, serif;
+	text-align: center;
+}
